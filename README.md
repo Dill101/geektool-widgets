@@ -18,10 +18,11 @@ In terms of how to get this config up and running, follow the steps below:
 1. Open Geektools, drag and drop and arrange first the base bars that make up the widgets. 
 2. Add three of the overlaying bars on top. 
 3. From there add the non-script-based text by dragging and dropping the shell widget, and simply type within the "command" space, echo "____", blank being "Network", "Bluetooth", "You're listening to:" and the name tag plus the hostname. 
-4. Add the forward and backward icons, the spotify icon, and the profile icon, as they are static. Drag and drop the image widget. 
+4. Add the forward and backward icons, the Spotify icon, and the profile icon, as they are static. Drag and drop the image widget, and in the URL section, navigate to the respective image repo. (For the music-bar gif, you'll have to create a folder, direct the URL to the folder, and enable "Randomize")
 5. Import 3 shell widgets, each being dedicated to the 3 applescript files (excluding spotifyPlay.applescript for now).
 6. Within one of the 3 added shell widgets, in the command area type osascript /path/to/spotifyControl.applescript. This shell widget will nwo display the Spotify song artist and title. Also make sure to change the refresh rate to above 0s if you want the script to refresh (do this for the latter 2 shell widgets). 
 7. Now within the 2 other shell widgets, in the command section write osascript /path/to/wifiStatus.applescript and in the other shell widget, write /path/to/bluetoothStatus.applescript. (remember to change refresh rate)
 8. After doing so, add 2 more shell widgets (in addition to the 3 previously added shell widgets) and rename one to BluetoothStatus, and another to WifiStatus.
-9. Time now for the images. First import an image widget and rename it to albumArt. As is obvious, this widget will display the Spotify album picture.
-10. Add 
+9. Now add 2 image widgets. Rename one to Wifi, the other to Bluetooth.
+10. Almost done. First import an image widget and rename it to albumArt. As is obvious, this widget will display the Spotify album picture.
+11. Lastly, add a image widget and rename it to musicWidget. This widget will display the pause/play icon.
