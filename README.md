@@ -43,3 +43,7 @@ In terms of how to get this config up and running, follow the steps below:
 
 12. Lastly, add a image widget and rename it to musicWidget. This widget will display the pause/play icon.
 
+<img width="1512" alt="Screenshot 2022-07-05 at 12 49 00 AM" src="https://user-images.githubusercontent.com/60739808/177194560-a7f72159-2982-40ee-92ff-bedba4dcceed.png">
+
+If you want the bar, you'll have to download Ubersicht widgets, and go to the simple-bar git repository here: https://github.com/Jean-Tinland/simple-bar
+
