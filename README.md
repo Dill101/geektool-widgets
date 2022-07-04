@@ -5,7 +5,11 @@ Here are the dotfiles for my newly created macOS widgets! The program used is Ge
 
 **EDIT:**
 
-time.scpt is unnecessary
+time.scpt is unnecessary.
+
+**2nd EDIT:**
+
+Make sure to change the directory paths mentioned in the applescript files from dill to your macOS username.
 
 <img width="1512" alt="Screenshot 2022-07-05 at 12 06 37 AM" src="https://user-images.githubusercontent.com/60739808/177189896-4e0ee276-9796-4bd0-840f-3e3400dada15.png">
 
@@ -31,7 +35,7 @@ In terms of how to get this config up and running, follow the steps below:
 
 6. Within one of the 3 added shell widgets, in the command area type "osascript /path/to/spotifyControl.applescript". This shell widget will now display the Spotify song artist and title. Also make sure to change the refresh rate to above 0s if you want the script to refresh (do this for the latter 2 shell widgets). 
 
-7. Now within the 2 other shell widgets, in the command section write "osascript /path/to/wifiStatus.applescript", and in the other shell widget, write "osascript /path/to/bluetoothStatus.applescript". (remember to change refresh rate)
+7. Now within the 2 other shell widgets, in the command section write "osascript /path/to/wifiStatus.applescript", and in the other shell widget, write "osascript /path/to/bluetoothStatus.applescript". (Remember to change the refresh rate!)
 
 8. After doing so, add 2 more shell widgets (in addition to the 3 previously added shell widgets) and rename one to BluetoothStatus, and another to WifiStatus.
 
